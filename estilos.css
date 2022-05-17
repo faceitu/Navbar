@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(184, 186, 193, 0.658);
+    height: 60px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.menu__navbar {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    padding-right: 30px;
+}
+
+.item__navbar {
+    color: black;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 18px;
+    text-decoration: none;
+    
+
+}
+.logo__navbar {
+    height: 100%;
+    padding-top: 12px;
+    padding-bottom: 4px;
+    padding-left: 20px;
+}
+
+.item__navbar:hover {
+    color: white;
+}
+
